@@ -61,6 +61,30 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				golden: {
+					50: "#fefdf8",
+					100: "#fef7e0", 
+					200: "#fcefc7",
+					300: "#f9e2a3",
+					400: "#f5d078",
+					500: "#DAA520",
+					600: "#b8941d",
+					700: "#8b7016",
+					800: "#5c4a0e",
+					900: "#2d2507"
+				},
+				warm: {
+					50: "#faf9f7",
+					100: "#f0ede8",
+					200: "#e6ddd3", 
+					300: "#d4c4b0",
+					400: "#b8a082",
+					500: "#8B4513",
+					600: "#723610",
+					700: "#59270c",
+					800: "#401c08",
+					900: "#281004"
 				}
 			},
 			borderRadius: {
@@ -89,6 +113,10 @@ export default {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out'
+			},
+			fontFamily: {
+				'cormorant': ['Cormorant', 'serif'],
+				'open-sans': ['Open Sans', 'sans-serif']
 			}
 		}
 	},
